@@ -11,6 +11,11 @@ public class Navigation : MonoBehaviour {
     Text t = GameObject.FindGameObjectWithTag("test").GetComponent<Text>();
     t.text = "Hello World";
   }
+  public void Magic2()
+  {
+    Text t = GameObject.FindGameObjectWithTag("test").GetComponent<Text>();
+    t.text = "Fek off m8";
+  }
   public void NewGame()
   {
     SceneManager.LoadScene("GameScene",LoadSceneMode.Single);
