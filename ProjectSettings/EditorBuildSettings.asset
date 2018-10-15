@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ExitMenu.unity
     guid: aea789a3c25f68a439ae0d2134ab394d
   - enabled: 1
+    path: Assets/Scenes/ResignScene.unity
+    guid: b1f1388096f726645b1f6f6666dc1049
+  - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: 932e3b2526787454fb6d24cf0d56e1cc
   m_configObjects: {}

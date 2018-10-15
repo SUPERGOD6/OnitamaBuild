@@ -5,28 +5,35 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Navigation : MonoBehaviour {
-
-  public void Magic()
+   
+  private void ResetGame()
   {
-    Text t = GameObject.FindGameObjectWithTag("test").GetComponent<Text>();
-    t.text = "Hello World";
-  }
-  public void Magic2()
-  {
-    Text t = GameObject.FindGameObjectWithTag("test").GetComponent<Text>();
-    t.text = "Fek off m8";
+    
   }
   public void NewGame()
   {
     SceneManager.LoadScene("GameScene",LoadSceneMode.Single);
+    ResetGame(); 
   }
   public void ExitGame()
   {
     SceneManager.LoadScene("ExitMenu",LoadSceneMode.Additive);
+  }   
+  public void ResignGame()
+  {
+    SceneManager.LoadScene("ResignMenu",LoadSceneMode.Additive);
+  }        
+  public void ReloadGame()
+  {
+    StartGame2();
+    ResetGame();
+  }
+  public void StartGame2()
+  {                                                             
+    SceneManager.UnloadSceneAsync("ResignMenu");
   }
   public void StartGame()
-  {
-    //SceneManager.LoadScene("GameScene",LoadSceneMode.Single);
+  {                                                             
     SceneManager.UnloadSceneAsync("ExitMenu");
   }
   public void StopGame()
