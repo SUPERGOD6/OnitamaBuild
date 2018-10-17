@@ -53,7 +53,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ClickyClick.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\GameEnd.cs" />
+     <Compile Include="Assets\Scripts\GameLoad.cs" />
      <Compile Include="Assets\Scripts\Navigation.cs" />
+     <Compile Include="Assets\Static Classes\Card.cs" />
+     <Compile Include="Assets\Static Classes\Cell.cs" />
+     <Compile Include="Assets\Static Classes\DeckCards.cs" />
+     <Compile Include="Assets\Static Classes\GameController.cs" />
+     <Compile Include="Assets\Static Classes\Move.cs" />
+     <Compile Include="Assets\Static Classes\Piece.cs" />
      <Compile Include="Assets\UI\Scripts\ActiveStateToggler.cs" />
      <Compile Include="Assets\UI\Scripts\ApplicationManager.cs" />
      <Compile Include="Assets\UI\Scripts\ChangeColor.cs" />
@@ -69,16 +79,16 @@
      <None Include="Assets\UI\Textures and Sprites\SF UI\Background\LICENSE.txt" />
      <None Include="Assets\UI\Materials\UI-Default-No-Alpha.shader" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>G:/NMMU/WRMV302/Game/Onitama/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/SUPER GOD/Desktop/Onitama - GitHub/Onitama/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>G:/NMMU/WRMV302/Game/Onitama/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/SUPER GOD/Desktop/Onitama - GitHub/Onitama/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>G:/NMMU/WRMV302/Game/Onitama/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/SUPER GOD/Desktop/Onitama - GitHub/Onitama/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>G:/NMMU/WRMV302/Game/Onitama/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/SUPER GOD/Desktop/Onitama - GitHub/Onitama/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

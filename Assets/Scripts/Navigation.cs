@@ -7,26 +7,32 @@ using UnityEngine.UI;
 public class Navigation : MonoBehaviour {
    
   private void ResetGame()
-  {
-    
+  { 
+    GameController.InitializeGame();
   }
   public void NewGame()
   {
-    SceneManager.LoadScene("GameScene",LoadSceneMode.Single);
-    ResetGame(); 
-  }
+    SceneManager.LoadScene("GameScene",LoadSceneMode.Single);                                                 
+  }   
   public void ExitGame()
   {
     SceneManager.LoadScene("ExitMenu",LoadSceneMode.Additive);
   }   
   public void ResignGame()
   {
-    SceneManager.LoadScene("ResignMenu",LoadSceneMode.Additive);
+    SceneManager.LoadScene("ResignMenu",LoadSceneMode.Additive);          
   }        
   public void ReloadGame()
+  {   
+    SceneManager.LoadScene("GameScene",LoadSceneMode.Single);
+  }
+  public void ReloadGame2()
+  {                 
+    SceneManager.LoadScene("GameScene",LoadSceneMode.Single);
+  }
+  public void StartGame3()
   {
-    StartGame2();
-    ResetGame();
+    SceneManager.UnloadSceneAsync("WinMenu");
   }
   public void StartGame2()
   {                                                             
