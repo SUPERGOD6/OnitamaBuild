@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1857
     height: 1038
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1857
     height: 988
-  m_MinSize: {x: 881, y: 492}
-  m_MaxSize: {x: 16006, y: 14042}
+  m_MinSize: {x: 887, y: 492}
+  m_MaxSize: {x: 16012, y: 14042}
   vertical: 0
-  controlID: 42200
+  controlID: 91
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 1497
     height: 988
-  m_MinSize: {x: 604, y: 492}
-  m_MaxSize: {x: 12004, y: 14042}
+  m_MinSize: {x: 610, y: 492}
+  m_MaxSize: {x: 12010, y: 14042}
   vertical: 1
-  controlID: 42201
+  controlID: 92
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 1497
     height: 643
-  m_MinSize: {x: 604, y: 221}
-  m_MaxSize: {x: 12004, y: 4021}
+  m_MinSize: {x: 610, y: 221}
+  m_MaxSize: {x: 12010, y: 4021}
   vertical: 0
-  controlID: 42202
+  controlID: 93
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -203,10 +203,10 @@ MonoBehaviour:
     y: 0
     width: 1216
     height: 643
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 408, y: 221}
+  m_MaxSize: {x: 8008, y: 4021}
   vertical: 0
-  controlID: 42203
+  controlID: 94
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,8 +225,8 @@ MonoBehaviour:
     y: 0
     width: 618
     height: 643
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -347,8 +347,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -307
     m_HBaseRangeMax: 307
-    m_VBaseRangeMin: -172.5
-    m_VBaseRangeMax: 172.5
+    m_VBaseRangeMin: -302.5
+    m_VBaseRangeMax: 302.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -416,9 +416,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d02b0000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 002ce5ff48bce5ff0cc7e5ffe6c8e5fffef4e5ff4c0ce6ff2a34e6ff3e36e6ff8e40e6ffd68ee6ff9099e6ff24f8e6ffaa02e7ff7813e7ffc219e7ff3c1ee7ffe227e7ffa02ae7ffe82ce7ffce2fe7ff3a32e7ff0634e7ff5a38e7ffba3be7ff5241e7ffc04be7ff5e50e7ff2ce6e7ff4a35e8ffe836e8ff7638e8ff64d8eeff3cdfeeffec63efffa665efff0c84efff84a5efff5827f0ffb697f0ff0abcf0ff90bdf0ff7abff0ff34c1f0ff78c2f0ff50c8f0ff8cc9f0ff2cd9f0ff94f1f0ff2af3f0ff74f8f0ffa8f9f0ff60fbf0ffb6fcf0ff3efef0ff6a00f1fff001f1ff3003f1ff6611f1ff1e1ff1fffa2cf1ffa28df1ff28a2f1fff6a5f1ff60abf1ffe0acf1ff30b4f1ff44eff1ffe207f2ffc21bf2ffb62cf2ff4433f2ff5e35f2ff4a4cf3ff365cf3ff9460f3ffce82f3ff5284f3ffd685f3ffeed8f3ff8eddf3ff72f1f3ffb6f3f3fffef4f3ff56f7f3fffa3bfeff2a3cfeff1a6afeff8470feff0274feff1883fefff8ecffffe6fbffff00000000143200002a32000096820000c8820000e682000018830000388300008e830000928300000eb40400b6b40400c6b40400f0b4040024b504005eb5040002b6040012b604003cb6040070b6040080b6040090b60400aab60400bcb6040028b8040038b8040048b8040062b8040074b8040072b9040082b90400acb90400e0b90400f0b904001aba04007abb0400cabb04001abc0400b2bc0400b6bc040096c90500d0c905001acc050054cc050086da05009a10060088110600f6110600641206008454060094540600be54060098840600d4840600d60d0700e60d0700f00d0700fa0d0700420f0700520f07005c0f0700660f0700a2100700b81007006c120700761207007a1207008c1207009c120700a6120700b0120700c4120700528507008c850700c68e07001a9607002a960700549607004e9807002e990700709907006ca20700fea207004ea307009ea3070036a407003aa40700
+    m_ExpandedIDs: f0abffffd0acffffa6adffff8cb3ffff9ab3ffffa6b3ffffb4b3ffffe8b3fffff4b3ffff28c0ffff18c1fffffec1ffffe4c7fffff2c7fffffec7ffff0cc8ffff40c8ffff4cc8ffff48d0ffff48d1ffff3ed2ffff28d8ffff3ad8ffff4ad8ffff5cd8ffff94d8ffffa4d8ffffd4fbffff00000000263c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -583,20 +583,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\SUPER GOD\Desktop\Onitama - GitHub\Onitama
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 3c2b0000
-    m_LastClickedID: 11068
-    m_ExpandedIDs: 00000000f6290000082a0000c42c0000702e0000802e000000ca9a3b
+    m_SelectedIDs: d42c0000
+    m_LastClickedID: 11476
+    m_ExpandedIDs: 00000000fc2900000e2a0000ce2c00007a2e00008a2e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -624,7 +624,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f6290000082a0000c42c0000702e0000802e000000ca9a3b
+    m_ExpandedIDs: 00000000fc2900000e2a0000ce2c00007a2e00008a2e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
